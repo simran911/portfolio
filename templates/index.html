@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Engineer | Neural Nexus</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <div class="particles-container"></div>
+    
+    <header class="cyber-header">
+        <div class="hologram-logo">
+            <div class="hologram-inner"></div>
+        </div>
+        <nav class="neon-nav">
+            <ul>
+                <li><a href="#about" class="neon-link" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="#projects" class="neon-link" data-text="PROJECTS">PROJECTS</a></li>
+                <li><a href="#skills" class="neon-link" data-text="SKILLS">SKILLS</a></li>
+                <li><a href="#contact" class="neon-link" data-text="CONTACT">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="cyber-section">
+            <div class="matrix-rain"></div>
+            <div class="hero-content">
+                <h1 class="glitch" data-text="HELLO, I'M AI_ENGINEER">HELLO, I'M <span class="cyberpunk">AI_ENGINEER</span></h1>
+                <p class="typing-text">Building the future with neural networks and quantum algorithms<span class="cursor">|</span></p>
+                <button class="cyber-button">INITIATE CONNECTION</button>
+            </div>
+            <div class="robot-arm">
+                <div class="arm-segment base"></div>
+                <div class="arm-segment upper"></div>
+                <div class="arm-segment lower"></div>
+                <div class="arm-segment hand"></div>
+            </div>
+        </section>
+
+        <section id="about" class="cyber-section">
+            <h2 class="section-title">SYSTEM <span class="neon">DIAGNOSTICS</span></h2>
+            <div class="about-grid">
+                <div class="bio-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons"></div>
+                        <span class="terminal-title">bio.txt</span>
+                    </div>
+                    <div class="terminal-content">
+                        <p>> Loading neural profile...</p>
+                        <p>> Name: Simran</p>
+                        <p>> Specialization: Artificial Intelligence</p>
+                        <p>> Core Skills: Deep Learning, Computer Vision, NLP,Generative AI</p>
+                        <p>> Current Status: Building Automative AI Stuff</p>
+                        <p>> Mission: Pushing the boundaries of AI</p>
+                        <p class="blinking-cursor">_</p>
+                    </div>
+                </div>
+                <div class="stats-display">
+                    <div class="radar-chart"></div>
+                    <div class="data-bars">
+                        <div class="bar" data-skill="Generative AI" data-percent="95"></div>
+                        <div class="bar" data-skill="Python" data-percent="90"></div>
+                        <div class="bar" data-skill="ML DL" data-percent="88"></div>
+                        <div class="bar" data-skill="Data Analysis" data-percent="90"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="cyber-section">
+            <h2 class="section-title">ACTIVE <span class="neon">PROTOCOLS</span></h2>
+            <div class="project-holograms">
+                <div class="hologram-card">
+                    <div class="hologram-content">
+                        <h3>AI AGENTS</h3>
+                        <p>Smart AI agents that streamline business workflows, automate tasks, and boost productivity.</p>
+
+                        <div class="hologram-buttons">
+                            <button class="hologram-btn">DETAILS</button>
+                            <button class="hologram-btn">DEMO</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hologram-card">
+                    <div class="hologram-content">
+                    <h3>CHAT BOTS</h3>
+                    <p>AI-powered chat bots that automate conversations and improve user engagement.</p>
+
+                        <div class="hologram-buttons">
+                            <button class="hologram-btn">DETAILS</button>
+                            <button class="hologram-btn">DEMO</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hologram-card">
+                    <div class="hologram-content">
+                       <h3>AI SOLUTIONS</h3>
+                        <p>Innovative AI tools designed to automate and enhance business operations.</p>
+
+                        <div class="hologram-buttons">
+                            <button class="hologram-btn">DETAILS</button>
+                            <button class="hologram-btn">DEMO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cyber-section">
+            <h2 class="section-title">ESTABLISH <span class="neon">CONNECTION</span></h2>
+            <div class="cyber-form">
+                <div class="form-grid">
+                    <div class="form-input">
+                        <label class="neon-label">IDENTITY:</label>
+                        <input type="text" class="cyber-input" placeholder="YOUR DESIGNATION">
+                    </div>
+                    <div class="form-input">
+                        <label class="neon-label">FREQUENCY:</label>
+                        <input type="email" class="cyber-input" placeholder="COMMS CHANNEL">
+                    </div>
+                    <div class="form-input full-width">
+                        <label class="neon-label">MESSAGE:</label>
+                        <textarea class="cyber-input" placeholder="ENCRYPT TRANSMISSION"></textarea>
+                    </div>
+                    <button class="cyber-button send-btn">TRANSMIT</button>
+                </div>
+                <div class="contact-visual">
+                    <div class="neural-connection"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="chatbot-launcher" onclick="window.open('/chatbot', '_blank')">
+        <div class="chatbot-bubble">
+            <i class="fas fa-comment-dots"></i>
+            <span class="notification-dot"></span>
+        </div>
+        <div class="chatbot-tooltip">AI Assistant</div>
+    </div>
+
+    <footer class="cyber-footer">
+        <div class="footer-grid">
+            <div class="footer-links">
+                <a href="#" class="neon-link">GITHUB</a>
+                <a href="#" class="neon-link">LINKEDIN</a>
+                <a href="#" class="neon-link">TWITTER</a>
+                <a href="#" class="neon-link">RESEARCHGATE</a>
+            </div>
+            <div class="cpu-usage">
+                <div class="cpu-meter">
+                    <div class="cpu-bar"></div>
+                </div>
+                <span>SYSTEM LOAD: <span class="cpu-percent">0</span>%</span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 AI_ENGINEER | ALL SYSTEMS NOMINAL</p>
+        </div>
+    </footer>
+
+   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
